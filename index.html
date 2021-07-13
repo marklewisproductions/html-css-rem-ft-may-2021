@@ -13,16 +13,25 @@
       name="keywords"
       content="ux design, ui design, designer in miami, ironhack student"
     />
+    <style type="text/css">
+    h3 {
+        color : midnightblue
+    }
+    h4 {
+        color: yellow
+    }
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Header - Start -->
     <header>
-      <img src="" alt="Logo">
+      <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Logo">
         <nav>
-          About Us
-          Products
-          Testimonials
-          Contact Us
+        <a href="#">About Us</a>  
+        <a href="#">Products</a> 
+        <a href="#">Testimonials</a>  
+        <a href="#">Contact Us</a>  
         </nav>
         search icon
         account icon
@@ -30,37 +39,37 @@
     <!-- Header - End -->
 ​
     <!-- Hero - Start -->
-    <section>
-      <h1>heading 1</h1>
+    <section id="hero">
+      <h1 style="color:blue">heading 1</h1>
       <h3>heading 3</h3>
-      call to action
+       <a href="#">call to action</a>
     </section>
     <!-- Hero - End -->
 ​
     <!-- Cards - Start -->
-    <section>
+    <section id="card">
       <!-- Card 1 - Start -->
         <div>
-          <img src="" alt="">
+          <img src="https://source.unsplash.com/300x200/?coffee,water" alt="">
           <h4>title</h4>
           <p>description</p>
-          call to action
+          <a href="# ">call to action</a>  
         </div>
       <!-- Card 1 - End -->
       <!-- Card 2 - Start -->
         <div>
-          <img src="" alt="">
+          <img src="https://source.unsplash.com/300x200/?coffee,mug" alt="">
           <h4>title</h4>
           <p>description</p>
-          call to action
+         <a href="#">call to action</a>  
         </div>
       <!-- Card 2 - End -->
       <!-- Card 3 - Start -->
         <div>
-          <img src="" alt="">
+          <img src="https://source.unsplash.com/300x200/?coffee,breakfast" alt="">
           <h4>title</h4>
           <p>description</p>
-          call to action
+         <a href="#">call to action</a> 
         </div>
       <!-- Card 3 - End -->
     </section>
@@ -70,7 +79,7 @@
     <section>
       <h2>what people say</h2>
       <blockquote>I love this product and everything in this world.</blockquote>
-      <img src="" alt="user photo">
+      <img src="https://source.unsplash.com/80x80/?,person" alt="user photo">
       <p>name</p>
     </section>
     <!-- Testimonials - End -->
@@ -80,28 +89,28 @@
     <h2>Features of the product</h2>
       <!-- Feature 1 - Start -->
       <div>
-        <img src="" alt="">
+        <img src="https://source.unsplash.com/160x160/?nature" alt="">
         <h4>title</h4> 
         <p>description</p> 
       </div>
       <!-- Feature 1 - End -->
       <!-- Feature 2 - Start -->
       <div>
-        <img src="" alt="">
+        <img src="https://source.unsplash.com/160x160/?water" alt="">
         <h4>title</h4> 
         <p>description</p> 
       </div>
       <!-- Feature 2 - End -->
       <!-- Feature 3 - Start -->
       <div>
-        <img src="" alt="">
+        <img src="https://source.unsplash.com/160x160/?sound" alt="">
         <h4>title</h4> 
         <p>description</p> 
       </div>
       <!-- Feature 3 - End -->
       <!-- Feature 4 - Start -->
       <div>
-        <img src="" alt="">
+        <img src="https://source.unsplash.com/160x160/?music" alt="">
         <h4>title</h4> 
         <p>description</p> 
       </div>
@@ -111,36 +120,64 @@
 ​
     <!-- Contact Us - Start -->
     <section>
-    contact us
-      address
-      phone
-      email
+    <div>
+        <h3>Contact Us</h3>
+      <p>address
+         Miami, FL <br />
+     </p> 
+       <a href="tel:55119922335566">Call Me</a> 
+       <a href="mailto: juno@juno.pro">Email Me</a> 
+    </div> 
+      <div></div>
 ​
-      name
-      email
-      text
-      submit button
+    <div>
+          
+       
+      <label for="name">Type your name here</label>
+      <input type="text" id="name" placeholder="e.g Carolina Teixeira">
+      
+      <label for="email">Type your email</label>
+      <input type="email" id="email" placeholder="steve@apple">
+      
+      <label for="message">Write your message</label>
+      <textarea name="" id="message" cols="20" rows="2" placeholder="Hello Dan"></textarea>
+      
+      <input type="submit" value="Send this message">
+      
+    </div> 
     </section>
     <!-- Contact Us - End -->
 ​
     <!-- Footer - Start -->
     <footer>
-      <img src="" alt="Logo">
+      <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Logo">
       
-      links 
-        link1
-        link2
-        link3
+     
+       <div>
+           <h5>Company</h5>
+         <a href="#">About Us</a> 
+         <a href="#">Team</a> 
+         <a href="#">Contact</a> 
+        
+        </div> 
       
-      links 
-        link1
-        link2
-        link3
        
-      follow us
-        instagram icon
-        linkedin icon
-        medium icon
+      <div>
+          <h5>Services</h5>
+         <a href="#">UX Design</a> 
+         <a href="#">UI Design</a> 
+         <a href="#">Web Dev</a>  
+        
+        </div>  
+       
+      
+       <div>
+           <h5>Follow Us</h5>
+           
+         <a href="#">instagram icon</a> 
+         <a href="#">linkedin icon</a> 
+         <a href="#">medium icon</a> 
+        </div> 
       </footer>
     <!-- Footer - End -->
 ​

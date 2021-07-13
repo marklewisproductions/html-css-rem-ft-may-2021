@@ -1,0 +1,20 @@
+
+h1{
+    color:green
+}
+h4{
+    color: red
+}
+p{
+    color:lime
+}
+section{
+    border: 2px red
+}
+#hero {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+
+}
